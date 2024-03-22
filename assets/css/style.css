@@ -1,0 +1,155 @@
+/*
+AUTHOR NAME: ANIK ISLAM RONI
+TEMPLETE NAME: FRONT END PORTFOLIO
+VERSION: 1.0.0
+*/
+
+/* ROOT VARIABLE */
+:root{
+    --poppins: "Poppins", sans-serif;
+    --header-color: #0F1624;
+    --white-color: #fff;
+    --gray-color: #ddd;
+    --btn-linear-color: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--poppins);
+}
+
+h1{
+    font-size: 64px;
+}
+h2{
+    font-size: 48;
+}
+h3{
+    font-size: 42;
+}
+h4{
+    font-size: 36;
+}
+h5{
+    font-size: 30;
+}
+h6{
+    font-size: 28;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1680px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+/* HEADER SECTION START */
+.header-section{
+    background-color: var(--header-color);
+}
+.header-row {
+    display: flex;
+    align-items: center;
+    gap: 220px;
+    /* justify-content: space-; */
+    padding: 25px 50px 25px 50px;
+}
+    .header-row .logo{
+        display: flex;
+        flex-shrink: 0;
+        align-items: center;
+        gap: 12px;
+    }
+    .logo h5{
+        color: var(--white-color);
+    }
+
+    .nav-menu nav ul li{
+        display: inline-block;
+        
+    }
+    .nav-menu ul li a{
+        color: var(--white-color);
+        padding: 0 50px;
+        font-weight: 700;
+        transition: 0.2s;
+    }
+    .nav-menu ul li a:hover{
+        color: var(--gray-color);
+    }
+    .nav-menu{
+        display: flex;
+        gap: 400px;
+        align-items: center;
+    }
+    .socilalink{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+    .socilalink .linkedin{
+        background-color: var(--white-color);
+        height: 32px;
+        width: 32px;
+        padding: 5px;
+        border-radius: 3px;
+    }
+/* HEADER SECTION END */
+
+
+/*HERO SECTION START */
+    .hero-section{
+        padding-top:90px;
+        background-color: var(--header-color);
+        position: relative;
+    }
+    .hero-content {
+        padding: 50px 120px 35px 120px;
+    }
+    .hero-content h1{
+        color: var(--white-color);
+        width: 75%;
+    }
+    .hero-content p{
+        color: var(--white-color);
+        width:440px;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .hero-content a {
+        background: var(--btn-linear-color);
+        color: var(--white-color);
+        padding: 20px 55px 20px 55px;
+        margin-top: 30px;
+        display: inline-block;
+        border-radius: 83px;
+    }
+    /* .hero-shape{
+        position: absolute;
+
+        height: 758px;
+        width: 758px;
+        display: inline-block;
+        z-index: 1;
+    } */
+  
+/*HERO SECTION END */
+
+/* SECTION START */
+/* SECTION END */
