@@ -12,6 +12,7 @@ VERSION: 1.0.0
     --gray-color: #ddd;
     --btn-linear-color: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
     --box-shadow-1: -3px 2px 16px -1px rgba(177,157,157,0.6);
+    --progres-bg: #162950;
 }
 
 *{
@@ -210,6 +211,56 @@ ul{
         border-radius: 83px;
     }
 /*PROJECT SECTION END */
+
+
+/* SECTION START */
+    .progress-section{
+        padding: 90px 0 90px 0;
+        background-color: var(--header-color);
+
+    }
+    .progress-section h1{
+        color: var(--white-color);
+        /* text-align: center; */
+        margin-left: 10%;
+    }
+    .pro-content  {
+        width: 600px;
+        margin-top: 50px;
+        position: relative;
+        margin-left: 10%;
+        
+    }
+    .pro-content .pro-text {
+        display: flex;
+        color: var(--white-color);
+        font-size: 18px;
+        /* gap: 1068px; */
+        margin-bottom: 15px;
+        width: 350px;
+        /* justify-content: space-between; */
+    }
+    /* .extracls{
+        margin-left: 500px;
+    } */
+    .pro-content .pro-bg{
+        background-color: var(--progres-bg);
+        width: 1200px;
+        height: 25px;
+        left: 0;
+        position: absolute;
+        border-radius: 80px;
+        margin-bottom: 50px;
+    }
+    .pro-content .pro-color{
+        background: var(--btn-linear-color);
+        width: 70%;
+        height: 25px;
+        left: 0;
+        position: absolute;
+        border-radius: 80px;
+    }
+/* SECTION END */
 
 
 /* SECTION START */
